@@ -37,6 +37,7 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #2196f3;
+  flex-direction: row;
 }
 
 .header-link {
@@ -52,6 +53,7 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #000000;
+  flex-direction: row;
 }
 
 .header-linkkk {
@@ -67,6 +69,7 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
+  flex-direction: row;
 }
 
 .contakts-link {
@@ -82,6 +85,7 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #2196f3;
+  flex-direction: row;
 }
 
 .contakts-links {
@@ -97,6 +101,7 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
+  flex-direction: row;
 }
 
 .hero-title {
@@ -109,6 +114,7 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #000000;
+  flex-direction: row;
 }
 
 .hero-button {
@@ -122,10 +128,12 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  flex-direction: row;
 }
 
 .benefits-list {
   flex: content;
+  flex-direction: row;
 }
 
 .benefitsname-logo {
@@ -137,6 +145,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  flex-direction: row;
 }
 
 .benefits-text {
@@ -147,6 +156,7 @@ a {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+  flex-direction: row;
 }
 
 .do-title {
@@ -158,6 +168,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  flex-direction: row;
 }
 
 .team-title {
@@ -169,6 +180,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  flex-direction: row;
 }
 
 .team-namea {
@@ -180,6 +192,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  flex-direction: row;
 }
 
 .team-texta {
@@ -191,6 +204,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  flex-direction: row;
 }
 
 .team-nameb {
@@ -202,6 +216,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  flex-direction: row;
 }
 
 .team-textb {
@@ -213,6 +228,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  flex-direction: row;
 }
 
 .team-namec {
@@ -224,6 +240,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  flex-direction: row;
 }
 
 .team-textc {
@@ -235,6 +252,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  flex-direction: row;
 }
 
 .team-named {
