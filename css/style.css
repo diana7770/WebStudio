@@ -4,6 +4,10 @@ ul {
   padding: 0;
 }
 
+body {
+  font-family: 'Roboto';
+}
+
 p,
 h1,
 h2,
@@ -14,66 +18,65 @@ a {
   text-decoration: none;
 }
 /* header */
+
+header {
+  display: flex;
+}
+
 .header-logo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
 
 .header-linkk {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
 
 .header-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #000000;
 }
 
 .header-linkkk {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
 
 .contakts-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
 
 .contakts-links {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
 
+/* секція герой */
 .hero-title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 4;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -81,11 +84,9 @@ a {
 }
 
 .hero-button {
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
-  display: flex;
+  line-height: 1.87;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -97,26 +98,23 @@ a {
 }
 
 .benefitsname-logo {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
 }
 
 .benefits-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
 .do-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -126,20 +124,18 @@ a {
 }
 
 .team-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 
 .team-namea {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -149,7 +145,7 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -159,7 +155,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -169,7 +165,7 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -179,17 +175,16 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 
 .team-textc {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -197,10 +192,9 @@ a {
 }
 
 .team-named {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -210,7 +204,7 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -230,24 +224,15 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #070625;
 }
 
 .footer-link {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(16, 16, 139, 0.6);
-}
-
-body {
-  font-family: 'Roboto';
-}
-
-header {
-  display: flex;
 }
