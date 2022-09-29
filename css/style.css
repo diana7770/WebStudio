@@ -19,236 +19,177 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
 
 .header-linkk {
-  position: absolute;
-  width: 45px;
-  height: 16px;
-  left: 453px;
-  top: 17px;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: #2196f3;
-  flex-direction: row;
 }
 
 .header-link {
-  position: absolute;
-  width: 72px;
-  height: 16px;
-  left: 552px;
-  top: 17px;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: #000000;
-  flex-direction: row;
 }
 
 .header-linkkk {
-  position: absolute;
-  width: 64px;
-  height: 16px;
-  left: 679px;
-  top: 17px;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: #212121;
-  flex-direction: row;
 }
 
 .contakts-link {
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: #2196f3;
-  flex-direction: row;
 }
 
 .contakts-links {
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: #757575;
-  flex-direction: row;
 }
 
 .hero-title {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1, 4;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #000000;
-  flex-direction: row;
 }
 
 .hero-button {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.9;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  flex-direction: row;
 }
 
 .benefits-list {
   flex: content;
-  flex-direction: row;
 }
 
 .benefitsname-logo {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
-  flex-direction: row;
 }
 
 .benefits-text {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
-  flex-direction: row;
 }
 
 .do-title {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  flex-direction: row;
 }
 
 .team-title {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  flex-direction: row;
 }
 
 .team-namea {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  flex-direction: row;
 }
 
 .team-texta {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
-  flex-direction: row;
 }
 
 .team-nameb {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  flex-direction: row;
 }
 
 .team-textb {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
-  flex-direction: row;
 }
 
 .team-namec {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  flex-direction: row;
 }
 
 .team-textc {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -256,22 +197,20 @@ a {
 }
 
 .team-named {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 
 .team-textd {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -282,27 +221,33 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
 
 .footer-address {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: #070625;
 }
 
 .footer-link {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(16, 16, 139, 0.6);
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+header {
+  display: flex;
 }
