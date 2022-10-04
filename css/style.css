@@ -56,6 +56,8 @@ header {
   color: #212121;
 }
 
+/* contakts */
+
 .contakts-link {
   font-weight: 500;
   font-size: 14px;
@@ -72,7 +74,8 @@ header {
   color: #757575;
 }
 
-/* секція герой */
+/* section hero */
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -97,6 +100,8 @@ header {
   flex: content;
 }
 
+/* your benefits */
+
 .benefitsname-logo {
   font-weight: 700;
   font-size: 14px;
@@ -114,6 +119,8 @@ header {
   color: #757575;
 }
 
+/* What do we do? */
+
 .do-title {
   font-weight: 700;
   font-size: 36px;
@@ -122,6 +129,8 @@ header {
   letter-spacing: 0.03em;
   color: #212121;
 }
+
+/* Our team */
 
 .team-title {
   font-weight: 700;
@@ -209,6 +218,8 @@ header {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
+/* Footer */
 
 .footer-logo {
   font-family: 'Raleway';
