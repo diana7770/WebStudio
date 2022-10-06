@@ -17,7 +17,12 @@ h3 {
 a {
   text-decoration: none;
 }
+
 /* header */
+
+.logo-color {
+  color: #2196f3;
+}
 
 header {
   display: flex;
@@ -29,6 +34,10 @@ header {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  color: #000000;
+}
+
+link:hover {
   color: #2196f3;
 }
 
@@ -37,7 +46,7 @@ header {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #000000;
 }
 
 .header-link {
@@ -53,7 +62,7 @@ header {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: #000000;
 }
 
 /* contakts */
@@ -63,7 +72,7 @@ header {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #757575;
 }
 
 .contakts-links {
@@ -83,7 +92,7 @@ header {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #000000;
+  color: #ffffff;
 }
 
 .hero-button {
@@ -228,6 +237,10 @@ header {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.footer-color {
   color: #2196f3;
 }
 
