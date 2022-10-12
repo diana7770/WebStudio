@@ -39,6 +39,7 @@ header {
   text-align: center;
   margin-left: 100px;
   margin-right: 0px;
+  margin-top: 12px;
 }
 
 .header-linkk:hover {
@@ -49,6 +50,7 @@ header {
   display: flex;
   text-align: center;
   margin-left: 93px;
+  margin-top: 12px;
 }
 
 .header-linkk {
@@ -58,7 +60,6 @@ header {
   letter-spacing: 0.02em;
   color: #000000;
   margin-right: 55px;
-  font-family: 'Roboto';
 }
 
 .header-link:hover {
@@ -94,6 +95,7 @@ header {
 .contakts-list {
   display: flex;
   text-align: center;
+  margin-top: 12px;
 }
 
 .contakts-link {
@@ -102,7 +104,7 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  margin-left: 235px;
+  margin-left: 245px;
   margin-right: 50px;
 }
 
@@ -117,7 +119,7 @@ header {
   letter-spacing: 0.02em;
   color: #757575;
   margin-left: 0px;
-  margin-right: 40px;
+  margin-right: 0px;
 }
 
 .contakts-links:hover {
