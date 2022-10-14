@@ -18,6 +18,15 @@ a {
   text-decoration: none;
 }
 
+.container {
+  border: 1px solid #d31d05;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* header */
 
 .logo-color {
@@ -40,6 +49,7 @@ header {
   margin-left: 100px;
   margin-right: 0px;
   margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .header-linkk:hover {
@@ -128,6 +138,10 @@ header {
 
 /* section hero */
 
+.hero-section {
+  background-color: #2f303a;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -138,8 +152,10 @@ header {
   color: #ffffff;
   display: flex;
   text-align: center;
-  margin-left: 252px;
-  margin-right: 252px;
+  margin-left: 230px;
+  margin-right: 200px;
+  margin-top: 130px;
+  margin-bottom: 0px;
 }
 
 .hero-button {
@@ -152,15 +168,17 @@ header {
   color: #ffffff;
   display: flex;
   text-align: center;
-  margin-left: 565px;
-  margin-right: 518px;
-}
-
-.benefits-list {
-  flex: content;
+  margin-left: 520px;
+  margin-right: 380px;
+  margin-top: 30px;
+  margin-bottom: 130px;
 }
 
 /* your benefits */
+
+.benefits-list {
+  display: flex;
+}
 
 .benefitsname-logo {
   font-weight: 700;
@@ -171,8 +189,8 @@ header {
   color: #212121;
   display: flex;
   text-align: center;
-  margin-left: 100px;
-  margin-right: 20px;
+  margin-left: 0px;
+  margin-top: 107px;
 }
 
 .benefits-text {
@@ -183,8 +201,37 @@ header {
   color: #757575;
   display: flex;
   text-align: center;
-  margin-left: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 94px;
+}
+
+.benefits-item1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 70px;
   margin-right: 30px;
+}
+
+.benefits-item2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 30px;
+}
+
+.benefits-item3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 30px;
+}
+
+.benefits-item4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 70px;
 }
 
 /* What do we do? */
@@ -198,28 +245,32 @@ header {
   color: #212121;
   display: flex;
   text-align: center;
-  margin-left: 520px;
+  margin-left: 445px;
   margin-right: 350px;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 .do-list {
   display: flex;
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 94px;
 }
 
 .do-img1 {
-  margin-left: 80px;
-  margin-right: 30px;
+  margin-left: 30px;
+  margin-right: 20px;
 }
 
 .do-img2 {
   margin-left: 0px;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .do-img3 {
   margin-left: 0px;
-  margin-right: 80px;
+  margin-right: 50px;
 }
 
 /* Our team */
@@ -246,7 +297,7 @@ header {
 
 .team-imgb {
   text-align: center;
-  margin-left: 215px;
+  margin-left: 0px;
   margin-right: 30px;
 }
 
@@ -267,7 +318,6 @@ header {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 
@@ -277,7 +327,6 @@ header {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -287,17 +336,14 @@ header {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
 }
-
-.team-textb {
+*/ .team-textb {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -307,16 +353,13 @@ header {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
 }
-
-.team-textc {
+*/ .team-textc {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #757575;
   flex-direction: row;
 }
@@ -326,7 +369,6 @@ header {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 
@@ -336,11 +378,14 @@ header {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
 /* Footer */
+
+.footer-section {
+  background-color: #2f303a;
+}
 
 .footer-logo {
   font-family: 'Raleway';
@@ -349,11 +394,25 @@ header {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: #ffffff;
 }
 
 .footer-color {
   color: #2196f3;
+}
+
+.footer-logo {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-top: 12px;
 }
 
 .footer-address {
@@ -362,7 +421,10 @@ header {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #070625;
+  color: #ffffff;
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-top: 12px;
 }
 
 .footer-link {
@@ -370,5 +432,19 @@ header {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(16, 16, 139, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-top: 12px;
+}
+
+.footer-link2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-top: 20px;
 }

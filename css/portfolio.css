@@ -191,4 +191,64 @@ header {
   display: flex;
   text-align: center;
   margin-top: 34px;
+  flex-wrap: wrap;
+  margin-left: 115px;
+}
+
+/* footer */
+
+.footer-section2 {
+  background-color: #2f303a;
+}
+
+.footer-logo2 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-top: 12px;
+  margin-left: 100px;
+  margin-right: 0px;
+}
+
+.foologo-color {
+  color: #2196f3;
+}
+
+.footer-address2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-top: 12px;
+}
+
+.footer-link2 {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-top: 12px;
+}
+
+.footer-links {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-top: 20px;
 }
