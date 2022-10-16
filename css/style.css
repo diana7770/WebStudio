@@ -174,8 +174,8 @@ header .container {
   color: #212121;
   display: flex;
   text-align: center;
-  margin-left: 445px;
-  margin-right: 350px;
+  margin-left: 420px;
+  margin-right: 380px;
   margin-top: 0px;
   margin-bottom: 50px;
 }
@@ -185,10 +185,7 @@ header .container {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 94px;
-}
-
-.do-item {
-  margin-right: 30px;
+  gap: 30px;
 }
 
 /* Our team */
@@ -210,12 +207,13 @@ header .container {
 
 .team-list {
   display: flex;
-  text-align: center;
+  justify-content: center;
 }
 
 .team-item {
   margin-right: 30px;
   background-color: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 .team-item:last-child {
