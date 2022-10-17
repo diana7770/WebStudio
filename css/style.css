@@ -48,6 +48,7 @@ header .container {
   color: #000000;
   display: flex;
   text-align: center;
+  margin-left: 15px;
 }
 
 .header-pages {
@@ -174,9 +175,8 @@ header .container {
   color: #212121;
   display: flex;
   text-align: center;
-  margin-left: 420px;
-  margin-right: 380px;
-  margin-top: 0px;
+  margin-left: 430px;
+  margin-right: 350px;
   margin-bottom: 50px;
 }
 
@@ -185,6 +185,7 @@ header .container {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 94px;
+  margin-left: 50px;
   gap: 30px;
 }
 
@@ -273,7 +274,6 @@ footer {
   color: #ffffff;
   display: flex;
   text-align: center;
-  margin-left: 100px;
   margin-right: 0px;
   margin-top: 12px;
 }
@@ -285,7 +285,6 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
-  margin-left: 100px;
   margin-right: 0px;
   margin-top: 12px;
 }
@@ -296,7 +295,6 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-left: 100px;
   margin-right: 0px;
   margin-top: 12px;
 }
@@ -307,7 +305,6 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-left: 100px;
   margin-right: 0px;
   margin-top: 20px;
 }
