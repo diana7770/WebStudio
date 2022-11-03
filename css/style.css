@@ -97,10 +97,19 @@ header .container {
   transform: cubic-bezier(0.16, 0.49, 1, -0.55);
 }
 
+.contakts-svg {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 /* section hero */
 
 .hero-section {
-  background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/backgroundImg.jpg);
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -160,8 +169,28 @@ header .container {
   margin-top: 10px;
 }
 
-.benefits-item {
-  margin-right: 30px;
+.benefits-item::before {
+  background-color: #f5f4fa;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  content: '';
+  width: 270px;
+  height: 120px;
+  margin-bottom: 20px;
+  background-image: url(../img/antenna1.svg);
+}
+
+.benefits-item:nth-child(3)::before {
+  background-image: url(../img/diagram1.svg);
+}
+
+.benefits-item:nth-child(2)::before {
+  background-image: url(../img/clock2.svg);
+}
+
+.benefits-item:nth-child(4)::before {
+  background-image: url(../img/astronaut1.svg);
 }
 
 /* What do we do? */
