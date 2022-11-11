@@ -97,6 +97,11 @@ header .container {
   transform: cubic-bezier(0.16, 0.49, 1, -0.55);
 }
 
+.contakts-svg {
+  margin-right: 5px;
+  fill: currentColor;
+}
+
 /* main buttons */
 
 .buttons-list {

@@ -98,7 +98,7 @@ header .container {
 }
 
 .contakts-svg {
-  margin-right: 10px;
+  margin-right: 5px;
   fill: currentColor;
 }
 
@@ -178,19 +178,19 @@ header .container {
   width: 270px;
   height: 120px;
   margin-bottom: 20px;
-  background-image: url(../img/antenna1.svg);
+  background-image: url(../img/SVG/antenna1.svg);
 }
 
 .benefits-item:nth-child(3)::before {
-  background-image: url(../img/diagram1.svg);
+  background-image: url(../img/SVG/diagram1.svg);
 }
 
 .benefits-item:nth-child(2)::before {
-  background-image: url(../img/clock2.svg);
+  background-image: url(../img/SVG/clock2.svg);
 }
 
 .benefits-item:nth-child(4)::before {
-  background-image: url(../img/astronaut1.svg);
+  background-image: url(../img/SVG/astronaut1.svg);
 }
 
 /* What do we do? */
@@ -223,6 +223,7 @@ header .container {
 .team-section {
   background-color: #f5f4fa;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .team-title {
@@ -271,6 +272,45 @@ header .container {
   margin-top: 10px;
   margin-bottom: 30px;
 }
+
+.team-svg {
+  margin-left: 32px;
+  margin-bottom: 42px;
+}
+
+.team-svg:hover {
+  background-color: #2196f3;
+}
+
+/* regular-customers
+
+.customers-section {
+  padding-top: 94px;
+}
+
+.customers-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  margin-bottom: 50px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+} */
+
+/* .customers-svg {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: #afb1b8;
+  margin-left: 20px;
+  margin-bottom: 94px;
+} */
+
+/* .customers-svg:hover {
+  color: #2196f3;
+} */
 
 /* Footer */
 
