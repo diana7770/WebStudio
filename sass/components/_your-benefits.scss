@@ -1,0 +1,49 @@
+/* your benefits */
+
+.benefits-list {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.benefitsname-logo {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.benefits-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-top: 10px;
+}
+
+.benefits-item::before {
+  background-color: #f5f4fa;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  content: '';
+  width: 270px;
+  height: 120px;
+  margin-bottom: 20px;
+  background-image: url(../img/SVG/antenna1.svg);
+}
+
+.benefits-item:nth-child(3)::before {
+  background-image: url(../img/SVG/diagram1.svg);
+}
+
+.benefits-item:nth-child(2)::before {
+  background-image: url(../img/SVG/clock2.svg);
+}
+
+.benefits-item:nth-child(4)::before {
+  background-image: url(../img/SVG/astronaut1.svg);
+}

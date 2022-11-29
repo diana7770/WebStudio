@@ -1,0 +1,63 @@
+/* Our team */
+
+.team-section {
+  background-color: #f5f4fa;
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-item {
+  margin-right: 30px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.team-item:last-child {
+  margin-right: 0px;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: #212121;
+  font-family: 'Roboto';
+  margin-top: 30px;
+}
+
+.team-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: #757575;
+  font-family: 'Roboto';
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.team-svg {
+  margin-left: 32px;
+  margin-bottom: 42px;
+}
+
+.team-svg:hover {
+  background-color: #2196f3;
+}
