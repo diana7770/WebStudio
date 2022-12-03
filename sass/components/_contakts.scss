@@ -1,22 +1,27 @@
 /* contakts */
 
 .contakts-list {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-  }
-  
-  .contakts-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
-    margin-right: 50px;
-    transition: 270ms;
-  }
-  
-  .contakts-link:hover {
-    color: #2196f3;
-    transform: cubic-bezier(0.16, 0.49, 1, -0.55);
-  }
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.contakts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  margin-right: 50px;
+  transition: 270ms;
+}
+
+.contakts-link:hover {
+  color: #2196f3;
+  transform: cubic-bezier(0.16, 0.49, 1, -0.55);
+}
+
+.contakts-svg:hover {
+  color: #2196f3;
+  transform: cubic-bezier(0.16, 0.49, 1, -0.55);
+}

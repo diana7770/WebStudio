@@ -338,9 +338,14 @@ header .container {
   transform: cubic-bezier(0.16, 0.49, 1, -0.55);
 }
 
+.contakts-svg:hover {
+  color: #2196f3;
+  transform: cubic-bezier(0.16, 0.49, 1, -0.55);
+}
+
 /* section hero */
 .hero-section {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/backgroundImg.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/backgroundImg.jpg);
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -408,19 +413,19 @@ header .container {
   width: 270px;
   height: 120px;
   margin-bottom: 20px;
-  background-image: url(../img/SVG/antenna1.svg);
+  background-image: url(../../images/SVG/antenna1.svg);
 }
 
 .benefits-item:nth-child(3)::before {
-  background-image: url(../img/SVG/diagram1.svg);
+  background-image: url(../../images/SVG/diagram1.svg);
 }
 
 .benefits-item:nth-child(2)::before {
-  background-image: url(../img/SVG/clock2.svg);
+  background-image: url(../../images/SVG/clock2.svg);
 }
 
 .benefits-item:nth-child(4)::before {
-  background-image: url(../img/SVG/astronaut1.svg);
+  background-image: url(../../images/SVG/astronaut1.svg);
 }
 
 /* What do we do? */
