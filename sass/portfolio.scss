@@ -1,7 +1,8 @@
 @import '../sass/base/normalize';
 @import '../sass/base/reset';
 @import '../sass/base/commont';
+@import '../sass/utils/variables.scss';
 @import '../sass/components/header';
-@import '../sass/components/buttons.scss';
-@import '../sass/components/pictures.scss';
+@import '../sass/components/portfolio-components/buttons';
+@import '../sass/components/portfolio-components/pictures';
 @import '../sass/components/footer';
