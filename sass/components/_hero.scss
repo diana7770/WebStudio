@@ -1,40 +1,70 @@
 /* section hero */
 
 .hero-section {
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../../images/backgroundImg.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../../images/backgroundImg.jpg);
+
+  text-align: center;
+  padding-top: 118px;
+  padding-bottom: 118px;
+
+  @media screen and (min-width: 1200px) {
     padding-top: 200px;
     padding-bottom: 200px;
-    text-align: center;
   }
-  
-  .hero-title {
-    font-weight: 900;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  @media screen and (min-width: 1200px) {
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #ffffff;
     margin-bottom: 30px;
   }
-  
-  .hero-button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #ffffff;
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 4px;
+  margin-left: 140px;
+  margin-right: 140px;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 284px;
+    margin-right: 284px;
+  }
+
+  @media screen and (min-width: 1200px) {
     background-color: #2196f3;
     border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+    padding-right: 32px;
     border-radius: 4px;
+    margin-left: 500px;
+    margin-right: 500px;
   }
+}

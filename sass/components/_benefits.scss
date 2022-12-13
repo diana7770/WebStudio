@@ -25,23 +25,29 @@
 }
 
 .benefits-item::before {
-  background-color: #f5f4fa;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: block;
-  content: '';
-  width: 270px;
-  height: 120px;
-  margin-bottom: 20px;
   background-image: url(../../images/SVG/antenna1.svg);
-}
 
-.benefits-item:nth-child(3)::before {
-  background-image: url(../../images/SVG/diagram1.svg);
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    background-color: #f5f4fa;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    content: '';
+    width: 270px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
 }
 
 .benefits-item:nth-child(2)::before {
   background-image: url(../../images/SVG/clock2.svg);
+}
+
+.benefits-item:nth-child(3)::before {
+  background-image: url(../../images/SVG/diagram1.svg);
 }
 
 .benefits-item:nth-child(4)::before {

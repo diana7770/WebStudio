@@ -1,5 +1,8 @@
 /* header */
 
+.hero-section {
+}
+
 .logo-color {
   color: #2196f3;
 }
@@ -8,6 +11,12 @@ header .container {
   display: flex;
   align-items: center;
   height: 80px;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .header-logo {
@@ -20,13 +29,31 @@ header .container {
   display: flex;
   text-align: center;
   margin-left: 15px;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 15px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .header-pages {
-  display: flex;
-  text-align: center;
-  margin-left: 93px;
-  align-items: center;
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    text-align: center;
+    margin-left: 93px;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    text-align: center;
+    margin-left: 93px;
+    align-items: center;
+  }
 }
 
 .header-page {
@@ -38,6 +65,12 @@ header .container {
   margin-right: 55px;
   font-family: 'Roboto';
   transition: 270ms;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .header-page:hover {
