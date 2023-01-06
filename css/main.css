@@ -350,12 +350,23 @@ header .container {
   align-items: center;
   margin-left: auto;
 }
+@media screen and (min-width: 768px) {
+  .contakts-list {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contakts-list {
+    display: flex;
+  }
+}
+
 .contakts-link {
   display: none;
 }
 @media screen and (min-width: 768px) {
   .contakts-link {
-    display: flex;
+    display: block;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -458,8 +469,13 @@ header .container {
 /* your benefits */
 .benefits-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.benefits-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .benefitsname-logo {
@@ -474,69 +490,118 @@ header .container {
 .benefits-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 24px;
   letter-spacing: 0.03em;
+  margin-bottom: 30px;
   color: #757575;
-  margin-top: 10px;
 }
 
 .benefits-item::before {
   background-image: url(../../images/SVG/antenna1.svg);
-}
-@media screen and (min-width: 1200px) {
-  .benefits-item::before {
-    background-color: #f5f4fa;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: block;
-    content: "";
-    width: 270px;
-    height: 120px;
-    margin-bottom: 20px;
-  }
+  display: block;
+  content: "";
+  margin-right: 30px;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
 }
 
 .benefits-item:nth-child(2)::before {
   background-image: url(../../images/SVG/clock2.svg);
+  display: block;
+  content: "";
+  margin-right: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
 }
 
 .benefits-item:nth-child(3)::before {
   background-image: url(../../images/SVG/diagram1.svg);
+  display: block;
+  content: "";
+  margin-right: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
 }
 
 .benefits-item:nth-child(4)::before {
   background-image: url(../../images/SVG/astronaut1.svg);
+  display: block;
+  content: "";
+  margin-right: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+}
+
+@media screen and (min-width: 768px) {
+  .benefits-item {
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .benefits-item {
+    width: 270px;
+    height: 120px;
+    padding-bottom: 30px;
+  }
 }
 
 /* What do we do? */
 .do-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  display: flex;
-  text-align: center;
-  margin-left: 430px;
-  margin-right: 350px;
-  margin-bottom: 50px;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .do-title {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .do-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    display: flex;
+    text-align: center;
+    margin-left: 430px;
+    margin-right: 350px;
+    margin-bottom: 50px;
+  }
 }
 
 .do-list {
-  display: flex;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 94px;
-  margin-left: 50px;
-  gap: 30px;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .do-list {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .do-list {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 94px;
+    margin-left: 50px;
+    gap: 30px;
+  }
 }
 
 /* Our team */
 .team-section {
   background-color: #f5f4fa;
   padding-bottom: 94px;
-  padding-top: 94px;
 }
 
 .team-title {
@@ -550,14 +615,38 @@ header .container {
 }
 
 .team-list {
-  display: flex;
+  display: block;
+  flex-wrap: wrap;
   justify-content: center;
 }
+@media screen and (min-width: 768px) {
+  .team-list {
+    flex-wrap: wrap;
+    display: block;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+}
 
-.team-item {
-  margin-right: 30px;
-  background-color: #ffffff;
-  border: 1px solid #eeeeee;
+@media screen and (min-width: 768px) {
+  .team-item {
+    margin-right: 10px;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-item {
+    margin-right: 30px;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+  }
 }
 
 .team-item:last-child {
@@ -592,7 +681,7 @@ header .container {
 }
 
 .team-svg:hover {
-  background-color: #2196f3;
+  background-color: #ffffff;
 }
 
 /* Footer */

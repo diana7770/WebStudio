@@ -2,8 +2,13 @@
 
 .benefits-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.benefits-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .benefitsname-logo {
@@ -18,38 +23,64 @@
 .benefits-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 24px;
   letter-spacing: 0.03em;
+  margin-bottom: 30px;
   color: #757575;
-  margin-top: 10px;
 }
 
 .benefits-item::before {
   background-image: url(../../images/SVG/antenna1.svg);
-
-  @media screen and (min-width: 768px) {
-  }
-
-  @media screen and (min-width: 1200px) {
-    background-color: #f5f4fa;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: block;
-    content: '';
-    width: 270px;
-    height: 120px;
-    margin-bottom: 20px;
-  }
+  display: block;
+  content: '';
+  margin-right: 30px;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
 }
 
 .benefits-item:nth-child(2)::before {
   background-image: url(../../images/SVG/clock2.svg);
+  display: block;
+  content: '';
+  margin-right: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
 }
 
 .benefits-item:nth-child(3)::before {
   background-image: url(../../images/SVG/diagram1.svg);
+  display: block;
+  content: '';
+  margin-right: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
 }
 
 .benefits-item:nth-child(4)::before {
   background-image: url(../../images/SVG/astronaut1.svg);
+  display: block;
+  content: '';
+  margin-right: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+}
+
+.benefits-item {
+  @media screen and (min-width: 768px) {
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+    height: 120px;
+    padding-bottom: 30px;
+  }
 }

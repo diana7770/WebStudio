@@ -1,6 +1,13 @@
 /* What do we do? */
 
 .do-title {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 1200px) {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -13,8 +20,16 @@
     margin-right: 350px;
     margin-bottom: 50px;
   }
-  
-  .do-list {
+}
+
+.do-list {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 1200px) {
     display: flex;
     text-align: center;
     margin-top: 50px;
@@ -22,3 +37,4 @@
     margin-left: 50px;
     gap: 30px;
   }
+}
