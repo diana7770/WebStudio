@@ -16,13 +16,13 @@
 }
 
 .team-list {
-  display: block;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
   @media screen and (min-width: 768px) {
     flex-wrap: wrap;
-    display: block;
+    display: flex;
     justify-content: center;
   }
 
@@ -34,6 +34,8 @@
 }
 
 .team-item {
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
   @media screen and (min-width: 768px) {
     margin-right: 10px;
     background-color: #ffffff;
@@ -44,6 +46,17 @@
     margin-right: 30px;
     background-color: #ffffff;
     border: 1px solid #eeeeee;
+  }
+}
+
+.team-img {
+  width: 450px;
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
   }
 }
 
@@ -74,8 +87,17 @@
 }
 
 .team-svg {
-  margin-left: 32px;
-  margin-bottom: 42px;
+  margin-left: 60px;
+  margin-bottom: 34px;
+  @media screen and (min-width: 768px) {
+    margin-left: px;
+    margin-bottom: px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 32px;
+    margin-bottom: 42px;
+  }
 }
 
 .team-svg:hover {
