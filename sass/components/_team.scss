@@ -3,6 +3,7 @@
 .team-section {
   background-color: #f5f4fa;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .team-title {
@@ -60,9 +61,9 @@
   }
 }
 
-.team-item:last-child {
-  margin-right: 0px;
-}
+// .team-item:last-child {
+//   margin-right: 0px;
+// }
 
 .team-name {
   font-weight: 500;
@@ -100,6 +101,15 @@
   }
 }
 
-.team-svg:hover {
-  background-color: #ffffff;
+.team-link:hover {
+  background-color: #2196f3;
+  border-radius: 100%;
+}
+
+.team-item:nth-last-child() {
+  margin-right: 0;
+}
+
+.team-link {
+  padding: 12px;
 }

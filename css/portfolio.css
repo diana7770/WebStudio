@@ -257,6 +257,12 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   font-family: "Roboto";
 }
@@ -342,6 +348,62 @@ header .container {
 .header-page:hover {
   color: #2196f3;
   transform: cubic-bezier(0.16, 0.49, 1, -0.55);
+}
+
+/* contakts */
+.contakts-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+  .contakts-list {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contakts-list {
+    display: flex;
+  }
+}
+
+.contakts-link {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .contakts-link {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    margin-right: 50px;
+    transition: 270ms;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contakts-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    margin-right: 50px;
+    transition: 270ms;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.contakts-link:hover {
+  color: #2196f3;
+  transform: cubic-bezier(0.16, 0.49, 1, -0.55);
+}
+
+.contakts-svg {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 /* main buttons */
@@ -487,4 +549,21 @@ footer {
   color: rgba(255, 255, 255, 0.6);
   margin-right: 0px;
   margin-top: 20px;
+}
+
+.footer-textsvg {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+}
+
+.footer-svg {
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
 }/*# sourceMappingURL=portfolio.css.map */

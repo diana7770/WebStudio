@@ -257,6 +257,12 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   font-family: "Roboto";
 }
@@ -385,6 +391,8 @@ header .container {
     color: #757575;
     margin-right: 50px;
     transition: 270ms;
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -393,9 +401,9 @@ header .container {
   transform: cubic-bezier(0.16, 0.49, 1, -0.55);
 }
 
-.contakts-svg:hover {
-  color: #2196f3;
-  transform: cubic-bezier(0.16, 0.49, 1, -0.55);
+.contakts-svg {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 /* section hero */
@@ -404,6 +412,7 @@ header .container {
   text-align: center;
   padding-top: 118px;
   padding-bottom: 118px;
+  max-width: 1600px;
 }
 @media screen and (min-width: 1200px) {
   .hero-section {
@@ -461,8 +470,7 @@ header .container {
     padding-left: 32px;
     padding-right: 32px;
     border-radius: 4px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin: 0 auto;
   }
 }
 
@@ -470,6 +478,7 @@ header .container {
 .benefits-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
   justify-content: center;
 }
 
@@ -501,7 +510,7 @@ header .container {
   display: block;
   content: "";
   margin-right: 30px;
-  width: 270px;
+  width: 100%;
   height: 120px;
   margin-bottom: 25px;
   background-repeat: no-repeat;
@@ -549,59 +558,64 @@ header .container {
 @media screen and (min-width: 1200px) {
   .benefits-item {
     width: 270px;
-    height: 120px;
-    padding-bottom: 30px;
   }
 }
 
 /* What do we do? */
 .do-title {
-  display: none;
-}
-@media screen and (min-width: 768px) {
-  .do-title {
-    display: none;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .do-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    display: flex;
-    text-align: center;
-    margin-left: 430px;
-    margin-right: 350px;
-    margin-bottom: 50px;
-  }
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
 }
 
 .do-list {
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 94px;
+  margin-left: 50px;
+  gap: 30px;
+}
+
+.do-section {
   display: none;
 }
-@media screen and (min-width: 768px) {
-  .do-list {
-    display: none;
+@media screen and (min-width: 1200px) {
+  .do-section {
+    display: block;
   }
 }
-@media screen and (min-width: 1200px) {
-  .do-list {
-    display: flex;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 94px;
-    margin-left: 50px;
-    gap: 30px;
-  }
+
+.do-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  position: absolute;
+  height: 70px;
+  width: 100%;
+  padding-top: 27px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+}
+
+.do-item {
+  position: relative;
 }
 
 /* Our team */
 .team-section {
   background-color: #f5f4fa;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .team-title {
@@ -711,7 +725,8 @@ header .container {
 }
 
 .team-svg:hover {
-  background-color: #ffffff;
+  background-color: #2196f3;
+  border-radius: 100%;
 }
 
 /* Footer */
@@ -777,4 +792,53 @@ footer {
   color: rgba(255, 255, 255, 0.6);
   margin-right: 0px;
   margin-top: 20px;
+}
+
+.footer-textsvg {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+}
+
+.footer-svg {
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-height: 300px;
+  min-width: 400px;
+  padding: 15px;
+  background-color: #fff;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }/*# sourceMappingURL=main.css.map */

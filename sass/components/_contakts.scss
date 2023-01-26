@@ -36,6 +36,8 @@
     color: #757575;
     margin-right: 50px;
     transition: 270ms;
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -44,10 +46,12 @@
   transform: cubic-bezier(0.16, 0.49, 1, -0.55);
 }
 
-.contakts-svg:hover {
-  color: #2196f3;
-  transform: cubic-bezier(0.16, 0.49, 1, -0.55);
-}
+// .contakts-svg:hover {
+//   color: #2196f3;
+//   transform: cubic-bezier(0.16, 0.49, 1, -0.55);
+// }
 
 .contakts-svg {
+  fill: currentColor;
+  margin-right: 10px;
 }
