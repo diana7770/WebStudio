@@ -903,6 +903,7 @@ footer {
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  transition: 290ms;
   border-radius: 4px;
   margin-right: auto;
   display: block;
@@ -912,6 +913,7 @@ footer {
 
 .modal-frame:hover {
   border-color: #2196f3;
+  transform: cubic-bezier(0.16, 0.49, 1, -0.55);
 }
 
 .modal-label__comment {
@@ -939,6 +941,7 @@ footer {
   width: 448px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  transition: 290ms;
   border-radius: 4px;
   margin-left: 27px;
   margin-right: 10px;
@@ -947,6 +950,7 @@ footer {
 
 .modal-comment:hover {
   border-color: #2196f3;
+  transform: cubic-bezier(0.16, 0.49, 1, -0.55);
 }
 
 .modal-text {
