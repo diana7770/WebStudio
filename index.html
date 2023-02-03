@@ -22,7 +22,7 @@
         >
         <ul class="header-pages">
           <li class="header-item">
-            <a class="header-page artive-page" href="./">Студія</a>
+            <a class="header-page" href="./">Студія</a>
           </li>
           <li class="header-item">
             <a class="header-page" href="./portfolio.html">Портфоліо</a>
@@ -690,9 +690,9 @@
       <div class="container">
         <p class="footer-text">Підпишіться на розсилку</p>
         <form class="footer-form">
-          <label>
-            <input class="footer-comit" type="email" placeholder="E-mail" />
-          </label>
+          <label class="footer-label" for=""></label>
+          <input class="footer-comit" type="email" placeholder="E-mail" />
+
           <button class="footer-button" type="submit">Підписатися</button>
           <svg>
             <use href="./images/SVG/icon-telegram.svg"></use>
@@ -702,8 +702,56 @@
     </footer>
     <div class="backdrop is-hidden" data-backdrop>
       <div class="modal">
-        <button data-close-modal>Закрити</button>
-        <h2>Залиште свої дані, ми вам передзвонимо</h2>
+        <button class="modal-button__close" data-close-modal>
+          <svg
+            class="modal-svg"
+            width="11"
+            height="11"
+            viewBox="0 0 11 11"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11 1.10786L9.89214 0L5.5 4.39214L1.10786 0L0 1.10786L4.39214 5.5L0 9.89214L1.10786 11L5.5 6.60786L9.89214 11L11 9.89214L6.60786 5.5L11 1.10786Z"
+              fill="black"
+            />
+          </svg>
+        </button>
+        <h2 class="modal-title" style="text-align: center">
+          Залиште свої дані, ми вам передзвонимо
+        </h2>
+        <ul class="modal-list">
+          <li class="modal-item">
+            <label class="modal-label" for="name">Ім'я</label>
+            <input class="modal-frame" type="text" id="name" />
+          
+          </li>
+          <li class="modal-item">
+            <label class="modal-label" for="phone">Телефон</label>
+            <input class="modal-frame" type="text" id="phone" />
+          </li>
+          <li class="modal-item">
+            <label class="modal-label" for="email">Пошта</label>
+            <input class="modal-frame" type="text" id="E-mail" />
+          </li>
+        </ul>
+        <label class="modal-label__comment" for="">Коментар</label>
+        <textarea
+          class="modal-comment"
+          name="comment"
+          id="comment"
+          cols="30"
+          rows="10"
+        >
+         Введіть текст</textarea
+        >
+        <input class="modal-mark" type="checkbox" name="" id="" />
+        <label class="modal-text" for=""
+          >Погоджуюся з розсилкою та приймаю<span class="modal-link">
+            Умови договору</span
+          ></label
+        >
+        <button class="modal-button" type="submit">Відправити</button>
       </div>
     </div>
     <script>

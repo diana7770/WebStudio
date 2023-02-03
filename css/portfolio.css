@@ -566,4 +566,14 @@ footer {
   display: flex;
   border-radius: 50%;
   justify-content: center;
+}
+
+.footer-button {
+  background-color: #2196f3;
+  border-radius: 4px;
+}
+
+.footer-comit {
+  color: transparent;
+  border-radius: 4px;
 }/*# sourceMappingURL=portfolio.css.map */
