@@ -113,3 +113,17 @@
 .team-link {
   padding: 12px;
 }
+
+.team__network {
+  width: 20px;
+  height: 20px;
+  fill: #757575;
+}
+
+.team-svg-list {
+  display: flex;
+}
+
+.team__network-color:hover {
+  fill: #2196f3;
+}

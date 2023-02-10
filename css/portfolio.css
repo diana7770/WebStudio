@@ -486,6 +486,13 @@ header .container {
   color: #757575;
 }
 
+.pictures-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
 /* Footer */
 footer {
   background-color: #2f303a;
@@ -562,18 +569,93 @@ footer {
   text-align: center;
 }
 
-.footer-svg {
+.footer-social {
   display: flex;
   border-radius: 50%;
   justify-content: center;
-}
-
-.footer-button {
-  background-color: #2196f3;
-  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  align-items: center;
 }
 
 .footer-comit {
-  color: transparent;
+  background-color: transparent;
   border-radius: 4px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  margin-top: 40px;
+  padding: 15px;
+}
+
+footer .container {
+  display: flex;
+}
+
+.footer-contakts {
+  margin-right: 70px;
+}
+
+.footer-socials {
+  margin-right: 93px;
+}
+
+.footer-socials-list {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.footer-svg {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+
+.footer-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-button {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border-radius: 4px;
+  margin-left: 400px;
+  margin-right: 140px;
+  border: none;
+}
+
+.footer__button-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.footer__button-svg {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
 }/*# sourceMappingURL=portfolio.css.map */

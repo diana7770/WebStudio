@@ -31,7 +31,7 @@
 }
 
 .benefits-item::before {
-  background-image: url(../../images/SVG/antenna1.svg);
+  background-image: url(../../images/svg/antenna.svg);
   display: block;
   content: '';
   margin-right: 30px;
@@ -44,7 +44,7 @@
 }
 
 .benefits-item:nth-child(2)::before {
-  background-image: url(../../images/SVG/clock2.svg);
+  background-image: url(../../images/svg/clock.svg);
   display: block;
   content: '';
   margin-right: 30px;
@@ -54,7 +54,7 @@
 }
 
 .benefits-item:nth-child(3)::before {
-  background-image: url(../../images/SVG/diagram1.svg);
+  background-image: url(../../images/svg/diagram.svg);
   display: block;
   content: '';
   margin-right: 30px;
@@ -64,7 +64,7 @@
 }
 
 .benefits-item:nth-child(4)::before {
-  background-image: url(../../images/SVG/astronaut1.svg);
+  background-image: url(../../images/svg/astronaut.svg);
   display: block;
   content: '';
   margin-right: 30px;
