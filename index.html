@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- header -->
-    <header>
+    <header id="button-scroll">
       <div class="container">
         <a class="header-logo" href="/"
           ><span class="logo-color">Web</span>Studio</a
@@ -28,7 +28,7 @@
             <a class="header-page" href="./portfolio.html">Портфоліо</a>
           </li>
           <li class="header-item">
-            <a class="header-page" href="#">Контакти</a>
+            <a class="header-page" href="#our team">Контакти</a>
           </li>
         </ul>
         <ul class="contakts-list">
@@ -156,7 +156,7 @@
         </div>
       </section>
       <!-- Our team-->
-      <section class="team-section">
+      <section class="team-section" id="our team">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list">
@@ -543,14 +543,29 @@
 
             <button class="footer-button" type="submit">
               <span class="footer__button-text">Підписатися</span>
-              <svg class="footer__button-svg">
+              <!-- <svg class="footer__button-svg">
                 <use class="button-svg" href="./images/symbol-defs1.svg#icon-Telegram"></use>
-              </svg>
+              </svg> -->
             </button>
           </form>
         </div>
       </div>
     </footer>
+    <!-- <a href="#button-scroll" class="button-scroll"></a>
+    <script>
+      <svg class="button-scroll__svg">
+        <use href="./images/symbol-defs1.svg#icon-arrow-up2"></use>
+      </svg>;
+    </script>
+    <script>
+      AOS.init();
+    </script> -->
+    <a href="#button-scroll" class="button-scroll">&#8657;</a>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
     <div class="backdrop is-hidden" data-backdrop>
       <div class="modal">
         <button class="modal-button__close" data-close-modal>
@@ -559,7 +574,7 @@
           </svg>
         </button>
       </div>
-
+    
       <h2 class="modal-title" style="text-align: center">
         Залиште свої дані, ми вам передзвонимо
       </h2>
@@ -585,9 +600,7 @@
         cols="30"
         rows="10"
       >
-         Введіть текст</textarea
-      >
-      <input class="modal-mark" type="checkbox" name="" id="" />
+         Введіть текст</textarea>
       <label class="modal-text" for=""
         >Погоджуюся з розсилкою та приймаю<span class="modal-link">
           Умови договору</span
